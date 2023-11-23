@@ -144,21 +144,34 @@ header {
 }
 .location-button {
     position: absolute;
-    top: -20px;
-    left: 45px; 
-    background-color: #566370;
+    top: -30px;
+    left: 13px; 
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
-    border-radius: 50px;
+    border-radius: 60px;
     cursor: pointer;
     font-family: 'chi';
 }
-.location-button:hover {
+
+.location-button-class {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4B5562;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.location-button-class:hover {
     background-color: #708090;
+    text-decoration: underline;
 }
 
 /* exec section */
+.exec-title {
+    display: none;
+}
 .exec-board {
     padding-top: 20px;
     padding-left: 15px;
@@ -192,6 +205,9 @@ header {
 }
 
 /* quotes section*/
+.quote-title {
+    display: none;
+}
 .quotes {
     border: 5px double #8c98de;   
     border-radius: 20px;          
@@ -307,11 +323,6 @@ header {
     }
 }
 
-
-
-
-
-
 /* footer section */
 .footer {
     padding: 20px;
@@ -415,7 +426,9 @@ header {
     line-height: 1.6;
     font-size: 18px; 
 }
-
+.member-button-title {
+    display: none;
+}
 /* volunteer section */
 .volunteer-title {
     position: relative; 
